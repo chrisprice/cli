@@ -5,8 +5,4 @@ RUN apt-get install libgnome-keyring-dev -y
 
 RUN npm install -g semantic-release-cli
 
-VOLUME /repository
-
-WORKDIR /repository
-
 ENTRYPOINT /bin/bash
